@@ -67,3 +67,11 @@ spring.jpa.hibernate.ddl-auto=update
   "category": "springboot",
   "difficulty": "medium"
 }
+
+## 🙋‍♂️ Author
+
+**Kartik Sharma**  
+Java Developer | Spring Boot Enthusiast
+
+[🔗 LinkedIn]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/kartiksharma-tech-enthusiast/))
+
