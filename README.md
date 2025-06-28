@@ -17,6 +17,30 @@ A full-stack Spring Boot application that allows users to take dynamically gener
 
 ---
 
+## API keypoints - testing
+**generate quiz >> http://localhost:8080/quiz/create?category=sql&noOfQuestions=5&title=sqlquiz 
+**submit quiz
+> http://localhost:8080/quiz/submit
+> {
+    "quizId": 2,
+    "answers": [
+        {
+            "questionId": 11,
+            "selectedAnswer":"COUNT()"
+        }
+    ]
+}
+>> result {
+    "quizId": 2,
+    "totalQuestions": 5,
+    "correctAnswers": 1,
+    "score": "1 / 5",
+    "incorrectAnswers": []
+}
+
+
+---
+
 ## 🛠️ Tech Stack
 
 | Layer        | Technology                             |
